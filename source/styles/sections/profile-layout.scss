@@ -1,0 +1,15 @@
+@import "sections/aside";
+@import "sections/main";
+
+.profile-layout {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    //min-width: 1044px;
+    //height: calc(100vh - 47px - 50px);
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 56px;
+    padding: 20px 0;
+    color: #242424;
+}

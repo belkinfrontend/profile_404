@@ -1,0 +1,29 @@
+.aside {
+    //background-color: #0097a7;
+    background-image: url(../images/bg_404.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    //background-size: 100%;
+    flex-grow: 1;
+    //flex-basis: 300px;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    //flex-grow: 1;
+    color: #fff;
+    
+    &_text {
+        font-size: 24px;
+        margin: 0;
+        
+    }
+    
+    &_number {
+        font-size: 110px;
+        margin: 0;
+        line-height: 1;
+        //font-weight: bold;
+    }
+}
