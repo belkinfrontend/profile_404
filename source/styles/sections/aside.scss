@@ -2,10 +2,13 @@
     //background-color: #0097a7;
     background-image: url(../images/bg_404.png);
     background-repeat: no-repeat;
-    background-position: center;
-    //background-size: 100%;
+    background-position: top;
+    border-radius: 2px;
+    background-size: cover;
     flex-grow: 1;
-    //flex-basis: 300px;
+    //min-width: 300px;
+    
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
     
     display: flex;
     flex-flow: column nowrap;
@@ -13,6 +16,10 @@
     align-items: center;
     //flex-grow: 1;
     color: #fff;
+    
+    @media (max-width: 998px) {
+        background: #0097a7;
+    }
     
     &_text {
         font-size: 24px;
@@ -26,4 +33,5 @@
         line-height: 1;
         //font-weight: bold;
     }
+    
 }

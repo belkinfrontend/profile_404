@@ -54,6 +54,9 @@
                 justify-content: space-between;
                 align-items: flex-start;
             }
+            @media (max-width: 738px) {
+                display: none;
+            }
         .item {
             margin-left: 40px;
             display: flex;
@@ -70,6 +73,11 @@
             a {
                 margin-left: 6px;
                 text-decoration: underline;
+            }
+        }
+        .profile {
+            @media (max-width: 737px) {
+                display: block;
             }
         }
 
@@ -96,4 +104,5 @@
     @media (max-width: 1245px) {
         font-size: 12px;
     }
+
 }
